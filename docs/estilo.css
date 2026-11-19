@@ -1,0 +1,16 @@
+:root {--bg: #0f1419; --panel: #161c22; --line: #263039; --text: #e6edf3; --dim: #9aa7b3; --accent: #7cc4d8;}
+* {box-sizing: border-box;}
+body {margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif;}
+main {max-width: 760px; margin: 0 auto; padding: 48px 20px 80px;}
+header {display: flex; align-items: center; gap: 14px; margin-bottom: 32px;}
+header img {width: 48px; height: 48px; border-radius: 12px;}
+header b {font-size: 20px; letter-spacing: -.2px;}
+nav {display: flex; flex-wrap: wrap; gap: 16px; margin-left: auto; font-size: 14px;}
+a {color: var(--accent);}
+h1 {font-size: 30px; line-height: 1.2; margin: 0 0 8px;}
+h2 {font-size: 19px; margin: 32px 0 6px;}
+p, li {color: var(--dim);}
+.data {font-size: 13px; color: var(--dim);}
+.cartao {background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 20px 22px; margin: 20px 0;}
+hr {border: 0; border-top: 1px solid var(--line); margin: 48px 0;}
+footer {margin-top: 56px; font-size: 13px; color: var(--dim);}
